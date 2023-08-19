@@ -1,0 +1,24 @@
+h1{
+    color: #1a859d;
+}
+/*Asignando Color al link en su estado por default
+o inicial sin ejecutar ninguna acción*/
+a{
+    color: rgb(255, 128, 0);
+    /*none quita el subrayado al link*/
+    text-decoration: none;
+}
+/*Evento que se ejecuta al colocarnos sobre el link*/
+a:hover{
+    color: rgb(33, 27, 205);
+    text-decoration: underline;
+}
+/*Evento cuando damos click al link */
+a:active{
+    color: aqua;
+}
+/*Evento que se ejecuta cuando se ha visitado la página*/
+a:visited{
+    color: rgb(255, 251, 0);
+    text-decoration: none;
+}
